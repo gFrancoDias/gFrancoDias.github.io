@@ -1,0 +1,51 @@
+.relative-container{
+    width: 504px;
+    height: 504px;
+    margin: 5vh 5vw;
+    border: 2px solid black;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.absolute-container {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    box-sizing: border-box;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+}
+
+.red {
+    background: red;
+}
+
+.blue {
+    background: blue;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: green;
+}
+
+.purple {
+    background: purple;
+}
+
+body {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}

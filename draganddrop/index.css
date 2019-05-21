@@ -1,7 +1,8 @@
 .relative-container{
     width: 504px;
     height: 504px;
-    margin: 5vh 5vw;
+    margin-top: 5px;
+    /* margin: 5vh 5vw; */
     border: 2px solid black;
     position: relative;
     box-sizing: border-box;
@@ -44,8 +45,10 @@
 body {
     overflow: hidden;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
